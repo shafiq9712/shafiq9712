@@ -199,6 +199,36 @@ void Input()
             Input();
         }
 	}
+	 else if (a == 7)
+    {
+        if (matrix[2][0] == '7')
+            matrix[2][0] = player;
+        else
+        {
+            cout << "Field is already in use try again!" << endl;
+            Input();
+        }
+    }
+    else if (a == 8)
+    {
+        if (matrix[2][1] == '8')
+            matrix[2][1] = player;
+        else
+        {
+            cout << "Field is already in use try again!" << endl;
+            Input();
+        }
+    }
+    else if (a == 9)
+    {
+        if (matrix[2][2] == '9')
+            matrix[2][2] = player;
+        else
+        {
+            cout << "Field is already in use try again!" << endl;
+            Input();
+        }
+    }
 }
 }
 void TogglePlayer()
